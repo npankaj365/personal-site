@@ -1,0 +1,62 @@
+## Basic Configuration
+baseurl = "https://pankajniroula.com.np/"
+languageCode = "en"
+
+title = "Musings of Pankaj Niroula"
+theme = "hyde-hyde"
+
+## Hugo Built-in Features
+disqusShortname = "npankaj365"
+googleAnalytics = "UA-128968851-1"
+enableRobotsTXT = true
+
+# summarylength = 30
+
+#paginate = 5
+
+## Site Settings
+[params]
+    author = "Pankaj Niroula"
+    title = "Title"
+    # description = "..."
+    authorimage = "/img/pankaj.JPG"
+    dateformat = "Jan 2, 2006"
+    highlightjs = true
+    highlightjsstyle = "github"
+    # please choose either GraphComment or Disqus or Utterances
+    #GraphCommentId = "..."
+    #UtterancesRepo = "..." # https://utteranc.es/
+    #UtterancesIssueTerm = "..." # pathname, url, title, og:title
+    #UtterancesTheme = "..." # github-light or github-dark
+    
+    # Table of contents
+    #toc = none, "hugo", or "tocbot"
+
+## Social Accounts
+[params.social]
+    github = "npankaj365"
+    #instagram = "<username>"
+    #xing = "<username>"
+    linkedin = "npankaj365"
+    twitter = "npankaj365"
+    #facebook = "<username>"
+    stackoverflow = "npankaj365"
+    telegram = "npankaj365"
+    email = "info@pankajniroula.com.np"
+
+## Main Menu
+[[menu.main]]
+    name = "Posts"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
+[[menu.main]]
+    name = "Portfolio"
+    identifier = "portfolio"
+    weight = 200
+    url = "/portfolio/"
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 300
+    url = "/about/"
