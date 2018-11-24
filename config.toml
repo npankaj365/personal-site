@@ -3,7 +3,7 @@ baseurl = "https://pankajniroula.com.np/"
 languageCode = "en"
 
 title = "Musings of Pankaj Niroula"
-theme = "hyde-hyde"
+theme = "casper"
 
 ## Hugo Built-in Features
 disqusShortname = "npankaj365"
@@ -31,6 +31,7 @@ enableRobotsTXT = true
     
     # Table of contents
     #toc = none, "hugo", or "tocbot"
+    postNavigation = true
 
 ## Social Accounts
 [params.social]
@@ -51,7 +52,7 @@ enableRobotsTXT = true
     identifier = "posts"
     url = "/posts/"
 [[menu.main]]
-    name = "Portfolio"
+    name = "Essays"
     identifier = "portfolio"
     weight = 200
     url = "/portfolio/"
