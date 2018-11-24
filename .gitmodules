@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/npankaj365/npankaj365.github.io
+	branch = master
