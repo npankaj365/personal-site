@@ -6,6 +6,7 @@ paginate = 5
 pluralizelisttitles = false
 theme = "casper"
 title = "Pankaj NIROULA"
+
 [[menu.main]]
 identifier = "blog"
 name = "Blog"
@@ -34,6 +35,8 @@ authorbio = "Software Engineer and Open Source Enthusiast"
 cover = "img/open_sky.jpg"
 description = "Whatever the mind of man can conceive and believe, it can achieve."
 githubName = "npankaj365"
+linkedinName = "npankaj365"
+email = "info@pankajniroula.com.np"
 googleAnalyticsUserID = "UA-128968851-1"
 hideHUGOSupport = false
 logo = "img/logo.png"
