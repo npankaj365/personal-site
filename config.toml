@@ -9,9 +9,19 @@ title = "Pankaj NIROULA"
 
 [[menu.main]]
 identifier = "blog"
-name = "Blog"
+name = "Home"
 url = "/"
-weight = -120
+weight = 120
+[[menu.main]]
+identifier = "post"
+name = "Posts"
+url = "/post"
+weight = 119
+[[menu.main]]
+identifier = "poem"
+name = "Poems"
+url = "/poem"
+weight = 118
 [[menu.main]]
 name = "Github"
 pre = "<h3>Find me</h3>"
@@ -22,7 +32,7 @@ name = "Twitter"
 url = "https://twitter.com/npankaj365"
 weight = 101
 [[menu.main]]
-name = "Keybase (secure msg)"
+name = "Keybase"
 pre = "<h3>Contact me</h3>"
 url = "https://Keybase.io/npankaj365"
 weight = 109
@@ -33,7 +43,7 @@ authorlocation = "Kathmandu, Nepal"
 authorwebsite = "https://pankajniroula.com.np"
 authorbio = "Software Engineer and Open Source Enthusiast"
 cover = "img/open_sky.jpg"
-description = "Whatever the mind of man can conceive and believe, it can achieve."
+description = "It is better to travel well than to arrive."
 githubName = "npankaj365"
 linkedinName = "npankaj365"
 email = "info@pankajniroula.com.np"

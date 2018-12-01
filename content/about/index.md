@@ -4,6 +4,7 @@ date: 2018-11-25T10:13:42+05:45
 draft: false
 menu: "main"
 weight: "99"
+comments: false	# set false to hide Disqus
 ---
 
 This is the home of Pankaj Niroula in the web.
